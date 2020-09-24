@@ -2,6 +2,14 @@
 
 Test meteor collection helper performance
 
+## Prepare
+
+Generate 10000 documents in both collections
+
+```js
+Meteor.call('generate', 10000)
+```
+
 ## Sample test result
 
 ### Test1
