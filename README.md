@@ -53,7 +53,7 @@ Meteor.call('test2', 10, 100000)
 
 Server
 
-```
+```js
 I20200925-15:43:24.073(8)? benchmark "test2": repeat=10
 I20200925-15:43:26.688(8)? loop 0 finished in 2614.8557559251785ms
 I20200925-15:43:29.589(8)? loop 1 finished in 2900.8979650735855ms
@@ -84,7 +84,7 @@ Meteor.call('test3', 10, 100000)
 
 Server
 
-```
+```js
 I20200925-15:44:02.448(8)? benchmark "test3": repeat=10
 I20200925-15:44:03.800(8)? loop 0 finished in 1352.0699610710144ms
 I20200925-15:44:05.263(8)? loop 1 finished in 1462.1287961006165ms
